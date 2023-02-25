@@ -1,0 +1,81 @@
+.footnote {
+    position: absolute;
+    left: 5rem;
+    bottom: 5rem;
+    opacity: 0.3;
+}
+
+.source {
+    position: absolute;
+    bottom: 0.3rem;
+    font-size: 0.5rem;
+}
+
+.bio.myphoto {
+    width: 95%;
+}
+
+.left-column  { width: 49%; float: left; }
+.right-column { width: 49%; float: right; }
+
+.left-column-33  { width: 33%; float: left; }
+.right-column-66 { width: 66%; float: right; }
+
+.left-column-66  { width: 66%; float: left; }
+.right-column-33 { width: 33%; float: right; }
+
+.right-column ~ p { clear: both; }
+.right-column ~ ul { clear: both; }
+
+.exampleMutations, .prosConsTable {
+    width: 100%;
+    height: 75%;
+    table-layout: fixed;
+}
+
+.exampleMutations td, .prosConsTable td {
+    text-align: center;
+}
+
+.exampleMutations tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.prosConsTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.exampleMutations th, .prosConsTable th {
+    background-color: black;
+    color: white;
+}
+
+.mutant {
+    width: 75%;
+}
+
+.survivedMutant{
+    width: 55%;
+}
+
+.mutantFailed{
+    color: red;
+}
+
+.mutantSucceed {
+    color: green;
+}
+
+.summaryCategories {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+.myName {
+    font-size: 3.5rem;
+}
+
+.socials, .question {
+    font-size: 1.5rem;
+}
