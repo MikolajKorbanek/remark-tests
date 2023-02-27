@@ -434,7 +434,9 @@ class: center, middle
       ratio: '16:9'
     });
   </script>
-  <script src="./mermaid.min.js"></script>
+<script type="module"> 
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.0/+esm'
+</script>
   <script>mermaid.initialize({ startOnLoad: true });</script>
 
 </body>
